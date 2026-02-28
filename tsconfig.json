@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "ignoreDeprecations": "6.0",
+    "baseUrl": ".",
     "target": "ES2017",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
@@ -19,8 +21,10 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
-    }
+  "@/*": ["./src/*"],
+  "@db/*": ["./db/*"],
+  "@lib/*": ["src/lib/*"]
+}
   },
   "include": [
     "next-env.d.ts",
@@ -29,6 +33,7 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-  ],
+, "drizzle.config.ts"  ],
   "exclude": ["node_modules"]
 }
+
