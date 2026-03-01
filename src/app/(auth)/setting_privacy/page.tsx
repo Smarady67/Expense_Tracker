@@ -38,7 +38,7 @@ export default function SettingsPage() {
           <header className="flex justify-between items-start">
             <div>
               <h1 className="text-4xl font-bold tracking-tight">Account</h1>
-              <p className="text-sm font-semibold text-slate-500 mt-2">Hello, Lebron!</p>
+              <p className="text-sm font-semibold text-slate-500 mt-2">Hello, User!</p>
             </div>
 
             <Link href="/">
@@ -54,7 +54,7 @@ export default function SettingsPage() {
               <div className="w-10 h-10 bg-[#FF9F66] rounded-lg flex items-center justify-center text-black font-bold text-xl">
                 L
               </div>
-              <h2 className="text-3xl font-bold tracking-tight">Lebron James</h2>
+              <h2 className="text-3xl font-bold tracking-tight">User</h2>
             </div>
 
             <div className="space-y-8">
@@ -62,7 +62,7 @@ export default function SettingsPage() {
               <div className="space-y-3">
                 <label className="text-sm font-bold text-white">Username:</label>
                 <div className="w-full bg-[#D9D9D9] text-black px-6 py-3 rounded-full font-medium">
-                  Lebron James
+                  Username
                 </div>
               </div>
 
@@ -70,7 +70,7 @@ export default function SettingsPage() {
               <div className="space-y-3">
                 <label className="text-sm font-bold text-white">Email:</label>
                 <div className="w-full bg-[#D9D9D9] text-black px-6 py-3 rounded-full font-medium">
-                  LebronJames123@gmail.com
+                  User123@gmail.com
                 </div>
               </div>
             </div>
